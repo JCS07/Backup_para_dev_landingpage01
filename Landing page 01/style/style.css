@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(web-design-2906159_1920.jpg);
+    background-size: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.image_logo {
+    justify-content: flex-end;
+    margin: 2rem 0rem 2rem 82rem;
+    width: 80px;
+}
+
+.text_principal {
+    justify-content: flex-end;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #d7c1a8;
+    padding-right: 3rem;
+}
+
+.text_sec {
+    justify-content: flex-end;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e5e5e5;
+    padding-right: 3rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.link_01 {
+    justify-content: flex-end;
+    gap: 1rem;
+    width: 320px;
+    text-align: center;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #d7c1a8;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    font: 'Inter', sans-serif;
+    margin: 2rem 0rem 0rem 67rem;
+}
+
+.link_01:hover {
+    transition: 0.5s ease-in;
+    background-color: #d7c1a8;
+    box-shadow: inset -20em 0 0 0 #e5e5e5;
+    inset: 20em 0 0 0 #e5e5e5;
+    color: #d7c1a8;
+}
+
+.link_02 {
+    justify-content: flex-end;
+    width: 320px;
+    text-align: center;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #d7c1a8;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    font: 'Inter', sans-serif;
+    margin: 2rem 0rem 0rem 57rem;
+}
+
+.link_02:hover {
+    transition: 0.5s ease-in;
+    background-color: #d7c1a8;
+    box-shadow: inset -20em 0 0 0 #e5e5e5;
+    inset: 20em 0 0 0 #e5e5e5;
+    color: #d7c1a8;
+}
+
+.link_03 {
+    justify-content: flex-end;
+    width: 320px;
+    text-align: center;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #d7c1a8;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    font: 'Inter', sans-serif;
+    margin: 2rem 0rem 0rem 47rem;
+}
+
+.link_03:hover {
+    transition: 0.5s ease-in;
+    background-color: #d7c1a8;
+    box-shadow: inset -20em 0 0 0 #e5e5e5;
+    inset: 20em 0 0 0 #e5e5e5;
+    color: #d7c1a8;
+}
+
+.link_04 {
+    justify-content: flex-end;
+    width: 320px;
+    text-align: center;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #d7c1a8;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    font: 'Inter', sans-serif;
+    margin: 2rem 0rem 0rem 57rem;
+}
+
+.link_04:hover {
+    transition: 0.5s ease-in;
+    background-color: #d7c1a8;
+    box-shadow: inset -20em 0 0 0 #e5e5e5;
+    inset: 20em 0 0 0 #e5e5e5;
+    color: #d7c1a8;
+}
+
+.link_05 {
+    justify-content: flex-end;
+    width: 320px;
+    text-align: center;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #d7c1a8;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    font: 'Inter', sans-serif;
+    margin: 2rem 0rem 0rem 67rem;
+}
+
+.link_05:hover {
+    text-decoration: none;
+    transition: 0.5s ease-in;
+    background-color: #d7c1a8;
+    box-shadow: inset -20em 0 0 0 #e5e5e5;
+    inset: 20em 0 0 0 #e5e5e5;
+    color: #d7c1a8;
+}
+
+.link_06 {
+    justify-content: flex-end;
+    width: 320px;
+    text-align: center;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #d7c1a8;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    font: 'Inter', sans-serif;
+    margin: 2rem 0rem 0rem 67rem;
+}
+
+.link_06:hover {
+    text-decoration: none;
+    transition: 0.5s ease-in;
+    background-color: #d7c1a8;
+    box-shadow: inset -20em 0 0 0 #e5e5e5;
+    inset: 20em 0 0 0 #e5e5e5;
+    color: #d7c1a8;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 3rem 15rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #e5e5e5;
+}
+
+.link_final {
+    gap: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: #e5e5e5;
+    font-style: bold;
+    padding: 0rem 0.5rem;
+}
+
+.link_final:hover {
+    color: #d7c1a8;
+    transition: 0.3s;
+}
